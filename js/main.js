@@ -9,6 +9,8 @@ const clue = document.querySelector('.js-clue');
 
 const randomNumber = getRandomNumber();
 
+
+
 //Función para coger número aleatorio
 function getRandomNumber(max) {
     return Math.ceil(Math.random() * 100);
@@ -17,7 +19,6 @@ function getRandomNumber(max) {
    console.log('Mi número aleatorio es ' + randomNumber)
 
 //Función para hacer que el número escrito en el input aparezca en la consola.
- 
 function handleClickBtn() {
     const inputNumber = number.value;
     console.log(inputNumber);
