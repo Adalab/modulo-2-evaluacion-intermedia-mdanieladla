@@ -9,7 +9,7 @@ const clue = document.querySelector('.js-clue');
 
 const randomNumber = getRandomNumber();
 
-
+const intentos = document.querySelector('.js-intentos');
 
 //Función para coger número aleatorio
 function getRandomNumber(max) {
@@ -31,15 +31,22 @@ pruebaBtn.addEventListener('click', handleClickBtn);
 function compareNumber() {
 const getInput = number.value;
     if (getInput >= randomNumber) {
+        //POR AQUI PASA console.log('pasa x aqui')
         clue.innerHTML = 'Pista: Demasiado alto'
     } else if (getInput <= randomNumber) {
+       //POR AQUI PASA console.log('pasa x aqui')
         clue.innerHTML = 'Pista: Demasiado bajo'
     } else if (getInput === randomNumber){
+        //NO PASA POR AQUI console.log('pasa x aqui')
         clue.innerHTML = 'Pista: ¡Has ganado campeona!'
     } else {
+        //NO PASA POR AQUI console.log('pasa x aqui')
         clue.innerHTML = 'Pista: El número debe estar entre 1 y 100'
     }
 }
 
 
 //Actualizar el contador de intentos cada vez que la jugadora pruebe
+
+
+
