@@ -1,0 +1,59 @@
+.page{
+    margin: 10px 0 0 20px;
+}
+
+.title{
+    font-size: 24px;
+    font-weight: bold;
+    color: grey;
+    padding: 10px;
+}
+
+.subtitle{
+    font-size: 18px;
+    color: gainsboro;
+    padding-left: 10px;
+}
+
+.form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.input-number {
+    width: 200px;
+    margin: 10px;
+    grid-column: 1 / 1;
+}
+
+.input-btn {
+    width: 75px;
+    height: 25px;
+    margin-left: 10px;
+    grid-column: 1 / 1;
+    background-color: turquoise;
+    color: white;
+    border: 1px solid turquoise;
+    border-radius: 5px;
+}
+
+.rectangle1 {
+    margin-left: 10px;
+    border: 3px solid gainsboro;
+    width: 50%;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+.subtitle-rectangle {
+    color: gray;
+    
+}
+
+.rectangle2 {
+    margin-left: 10px;
+    border: 3px solid gainsboro;
+    width: 50%;
+    padding: 5px;
+    margin-bottom: 5px;
+}
