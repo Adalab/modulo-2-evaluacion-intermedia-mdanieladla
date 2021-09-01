@@ -31,16 +31,12 @@ pruebaBtn.addEventListener('click', handleClickBtn);
 function compareNumber() {
 const getInput = number.value;
     if (getInput >= randomNumber) {
-        //POR AQUI PASA console.log('pasa x aqui')
         clue.innerHTML = 'Pista: Demasiado alto'
     } else if (getInput <= randomNumber) {
-       //POR AQUI PASA console.log('pasa x aqui')
         clue.innerHTML = 'Pista: Demasiado bajo'
     } else if (getInput === randomNumber){
-        //NO PASA POR AQUI console.log('pasa x aqui')
         clue.innerHTML = 'Pista: ¡Has ganado campeona!'
     } else {
-        //NO PASA POR AQUI console.log('pasa x aqui')
         clue.innerHTML = 'Pista: El número debe estar entre 1 y 100'
     }
 }
