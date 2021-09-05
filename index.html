@@ -10,16 +10,16 @@
   </head>
   <body class="page">
     <h1 class="title">Adivina el número</h1>
-    <h2 class="subtitle">Introduce aquí tu número:</h2>
-    <form action="" class="form">
-      <input type="number" class="js-input input-number" />
+
+    <form class="js-form form">
+      <label for="number" class="subtitle">Introduce aquí tu número:</label>
       <input
-        type="button"
-        name=""
-        id=""
-        value="Prueba"
-        class="js-btn input-btn"
+        type="number"
+        id="number"
+        class="js-input input-number"
+        placeholder="Número"
       />
+      <input type="button" value="Test" class="js-btn input-btn" />
     </form>
     <div class="rectangle1">
       <h2 class="js-clue subtitle-rectangle">
@@ -27,7 +27,7 @@
       </h2>
     </div>
     <div class="rectangle2">
-      <h2 class="js-intentos subtitle-rectangle">Número de intentos:</h2>
+      <h2 class="js-attempts subtitle-rectangle">Número de intentos:</h2>
     </div>
     <script src="js/main.js"></script>
   </body>
